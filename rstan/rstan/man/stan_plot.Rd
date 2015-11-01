@@ -161,7 +161,7 @@ trace
 mu_vs_tau <- stan_scat(fit, pars = c("mu", "tau"), color = "blue", size = 4)
 mu_vs_tau + 
   coord_flip() + 
-  theme(panel.background = element_rect(fill = "black")))
+  theme(panel.background = element_rect(fill = "black"))
   
 }
 }
